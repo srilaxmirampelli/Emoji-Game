@@ -1,0 +1,55 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+.emoji-card {
+  background-color: #ffffff33;
+  padding: 18px;
+  width: 27%;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  border-radius: 18px;
+  border: 3px solid #ffffff30;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emoji {
+  width: 40px;
+}
+.emoji:hover {
+  width: 50px;
+}
+.emoji-button {
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border-width: 0;
+}
+@media screen and (min-width: 576px) {
+  .emoji-card {
+    height: 110px;
+  }
+  .emoji {
+    width: 50px;
+  }
+  .emoji:hover {
+    width: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .emoji-card {
+    height: 180px;
+    width: 20%;
+    margin-right: 15px;
+    margin-bottom: 23px;
+    border-radius: 25px;
+    border-width: 4px;
+  }
+  .emoji {
+    width: 80px;
+  }
+  .emoji:hover {
+    width: 90px;
+  }
+}

@@ -1,0 +1,53 @@
+/* Write your code here. */
+.navbar-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff33;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.logo-title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.app-logo {
+  width: 25px;
+  padding-left: 5px;
+}
+.navbar-title {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+}
+.Score-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.score {
+  color: white;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  padding-right: 5px;
+}
+@media screen and (min-width: 768px) {
+  .navbar-title {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .app-logo {
+    margin-left: 30px;
+  }
+  .score {
+    font-size: 18px;
+    padding-right: 20px;
+  }
+}
